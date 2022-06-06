@@ -23,10 +23,10 @@ Fist of all, there is a model about price. And then we do backtesting for profit
  * one-to
  
  - check the data is stationary
- - ![image](https://user-images.githubusercontent.com/100894816/172109848-f395798d-6b2e-46d2-93a0-c5e55502ffed.png)
+ * ![image](https://user-images.githubusercontent.com/100894816/172109848-f395798d-6b2e-46d2-93a0-c5e55502ffed.png)
     (Make ACF, PACF graphs)
     
- - ![image](https://user-images.githubusercontent.com/100894816/172109881-bfa29e23-b8fd-42bb-bb6b-b1b1cec04ec7.png)
+ * ![image](https://user-images.githubusercontent.com/100894816/172109881-bfa29e23-b8fd-42bb-bb6b-b1b1cec04ec7.png)
     (Make Differenced Data(Stationary)
  - seasonal decomposition
    ![image](https://user-images.githubusercontent.com/100894816/172109745-d112bb03-ca70-4b21-834e-9c984631d0bd.png)
@@ -39,6 +39,8 @@ Fist of all, there is a model about price. And then we do backtesting for profit
 
  - Parameter optimizing
  - ARIMA SARIMA
+ * ![image](https://user-images.githubusercontent.com/100894816/172110466-b60fa05b-32ec-451e-a169-b0729239079e.png)
+
 
 In sample test, we saw the result is following the true value well. 
 But Out of sample test, it follow the trend only.
