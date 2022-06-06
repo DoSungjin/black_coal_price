@@ -21,12 +21,12 @@ Fist of all, there is a model about price. And then we do backtesting for profit
 # Modeling  
 1) arima
 one-to
- -check the data is stationary
- -seasonal decomposition
- -In sample test
- -Out of Sample test
- -Parameter optimizing
- -ARIMA SARIMA
+ - check the data is stationary
+ - seasonal decomposition
+ - In sample test
+ - Out of Sample test
+ - Parameter optimizing
+ - ARIMA SARIMA
 
 In sample test, we saw the result is following the true value well. 
 But Out of sample test, it follow the trend only.
