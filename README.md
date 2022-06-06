@@ -1,21 +1,25 @@
 # black_coal_price
  
--Purpose 
+# Purpose 
+
   When the firm buy blackcoal we want to give imformation about price
   Furthermore we want the stock is managed effectively
+  ![image](https://user-images.githubusercontent.com/100894816/172108400-d6088db0-4ace-48b2-9f9c-8aa6be37c200.png)
+
  
--Procedure
+# Procedure
+
 Fist of all, there is a model about price. And then we do backtesting for profit. 
-  Reference
-  Data crawling 
-  EDA
-  Modeling
-  Evaluation
-  Back testing
+  1. Reference
+  2. Data crawling 
+  3. EDA
+  4. Modeling
+  5. Evaluation
+  6. Back testing
  
  
--Modeling  
-1)arima
+# Modeling  
+1) arima
 one-to
  -check the data is stationary
  -seasonal decomposition
@@ -28,14 +32,14 @@ In sample test, we saw the result is following the true value well.
 But Out of sample test, it follow the trend only.
 
 
-2)prophet
+2) prophet
 one-to
  
-3)lstm
+3) lstm
 many-to-many 
  
-4)Xgboost
+4) Xgboost
 many-to-many
  
-5)1D convolution
+5) 1D convolution
 many-to-many
