@@ -20,7 +20,7 @@ Fist of all, there is a model about price. And then we do backtesting for profit
  
 # Modeling  
 1) arima
-one-to
+ * one-to
  - check the data is stationary
  - seasonal decomposition
  - In sample test
