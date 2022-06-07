@@ -51,7 +51,8 @@ one-to
 - Basic model
 
 - In sample test
-- ![Uploading image.png…]()
+ ![image](https://user-images.githubusercontent.com/100894816/172273744-6d807f15-9131-49e3-8090-db28967cca2a.png)
+
 
 
 - Out of Sample test
