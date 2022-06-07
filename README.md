@@ -48,6 +48,32 @@ But Out of sample test, it follow the trend only.
 
 2) prophet
 one-to
+- Basic model
+
+- In sample test
+- ![Uploading image.png…]()
+
+
+- Out of Sample test
+- Prameter chainge
+
+   1.Trend
+
+    **changepoints**	
+    **changepoint_prior_scale**	
+    **n_changepoints**	
+    **changepoint_range**	
+
+
+   2. Seasonality
+   **yearly_seasonality**	
+   **weekly_seasonality**	
+   **daily_seasonality**	
+   **seasonality_prior_scale**	
+   **seasonality_mode**	
+
+ 
+ 
  
 3) lstm
 many-to-many 
