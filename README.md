@@ -49,10 +49,18 @@ But Out of sample test, it follow the trend only.
 2) prophet
 one-to
 - Basic model
-  Prophet make well if the data has a Seanality & Trend. Also, if there is a event that we can't expect we can set the event as we know.
-  But Blackcoal is a raw materials product that is effected by spply and demand. So I expect the result is poor as long as i do the prophet on blackcoal only.
-  As i know, Prophet is good at Supply, Demand and Economic indicators like USD/AUD, S&P. 
+  Prophet make well if the data has a Seanality & Trend. 
+  Also, if there is a event that we can't expect we can set the event as we know.
+  But Blackcoal is a raw materials product that is effected by spply and demand. 
+  So I expect the result is poor as long as i do the prophet on blackcoal only.
+  As we know, Prophet is good at Supply, Demand and Economic indicators like USD/AUD, S&P. 
   So we will use the prophet as a feature that can predict the blackcoal price.
+  
+- Equation of Prophet 
+  y(t) = g(t) + s(t) + h(t) +et
+  -g(t) = Trend that has not repetitive elements
+  -s(t) = Repetitive change like week or seasonality of year
+  -h(t) = Elements that is irregular effect like Holiday
   
 - In sample test
  ![image](https://user-images.githubusercontent.com/100894816/172273744-6d807f15-9131-49e3-8090-db28967cca2a.png)
@@ -62,22 +70,31 @@ one-to
 - Out of Sample test
   - prophet result
   - bdi
-  - 
-- Prameter chainge
+  - market price
+  - economic element
+  - US dollar
+- Prameter change
 
    1.Trend
 
     **changepoints**	
+    
     **changepoint_prior_scale**	
+    
     **n_changepoints**	
+    
     **changepoint_range**	
 
 
    2. Seasonality
    **yearly_seasonality**	
+   
    **weekly_seasonality**	
+   
    **daily_seasonality**	
+   
    **seasonality_prior_scale**	
+   
    **seasonality_mode**	
 
  
