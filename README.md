@@ -49,13 +49,20 @@ But Out of sample test, it follow the trend only.
 2) prophet
 one-to
 - Basic model
-
+  Prophet make well if the data has a Seanality & Trend. Also, if there is a event that we can't expect we can set the event as we know.
+  But Blackcoal is a raw materials product that is effected by spply and demand. So I expect the result is poor as long as i do the prophet on blackcoal only.
+  As i know, Prophet is good at Supply, Demand and Economic indicators like USD/AUD, S&P. 
+  So we will use the prophet as a feature that can predict the blackcoal price.
+  
 - In sample test
  ![image](https://user-images.githubusercontent.com/100894816/172273744-6d807f15-9131-49e3-8090-db28967cca2a.png)
 
 
 
 - Out of Sample test
+  - prophet result
+  - bdi
+  - 
 - Prameter chainge
 
    1.Trend
