@@ -96,21 +96,21 @@ one-to
 
 - Code  (code파일→prophet+Xgboost)
 - Xgboost_blackcoal_all
-- 변수 30개 
-- 기간 3개월
-- 파라미터 Maxdepth 10 / 20/ 30
+-변수 30개 
+-기간 3개월
+-파라미터 Maxdepth 10 / 20/ 30
 - Xgboost_blackcoal_v1
-- 변수 9개 (상관관계 분석을 통해 도출)
-- 기간 3개월
-- 파라미터 Maxdepth 10 / 20/ 30
+-변수 9개 (상관관계 분석을 통해 도출)
+-기간 3개월
+-파라미터 Maxdepth 10 / 20/ 30
 - Xgboost_blackcoal_v2
-- 변수 4개 (3개월 그래프가 잘나온것)
-- 기간 3개월
-- 파라미터 Maxdepth 10 / 20/ 30
+-변수 4개 (3개월 그래프가 잘나온것)
+-기간 3개월
+-파라미터 Maxdepth 10 / 20/ 30
 - Xgboost_blackcoal_all_year
-- 변수 30개 
-- 기간 1년
-- 파라미터 Maxdepth 10 / 20/ 30
+-변수 30개 
+-기간 1년
+-파라미터 Maxdepth 10 / 20/ 30
 - Prophet_maker_all
 -feature prediction by prophet
 - Prophet_maker
