@@ -74,6 +74,47 @@ one-to
   - economic element
   - US dollar
 - Prameter change
+- File
+- 
+- prophet_pred_all.csv  
+-경로 : dataset → prophet_pred → prophet_pred_all.csv  
+-기간 : 2019년 1월 1일 ~ 2019년 3월 31일 (**3개월 예측**)
+-prophet 단변량 /features 예측값 (30개 전체)
+- prophet_pred_all_year.csv  
+-경로 : dataset → prophet_pred → prophet_pred_all_year.csv  
+-기간 : 2019년 1월 1일 ~ 2019년 12월 31일 (**12개월 예측**)
+-prophet 단변량 /features 예측값 (30개 전체)
+- project_dataset_pred.csv  
+-경로 : dataset → prophet_pred → project_dataset_pred.csv  
+-기간 : 2019년 1월 1일 ~ 2019년 3월 31일 (**3개월 예측**)
+-prophet 단변량 /features 예측값 (9개)
+- project_dataset.csv  
+-경로 : dataset → project_dataset.csv  
+-기간 : 2011년 1월 1일 ~ 2019년 12월 31일 (**실제 데이터**)
+
+---
+
+- Code  (code파일→prophet+Xgboost)
+- Xgboost_blackcoal_all
+- 변수 30개 
+- 기간 3개월
+- 파라미터 Maxdepth 10 / 20/ 30
+- Xgboost_blackcoal_v1
+- 변수 9개 (상관관계 분석을 통해 도출)
+- 기간 3개월
+- 파라미터 Maxdepth 10 / 20/ 30
+- Xgboost_blackcoal_v2
+- 변수 4개 (3개월 그래프가 잘나온것)
+- 기간 3개월
+- 파라미터 Maxdepth 10 / 20/ 30
+- Xgboost_blackcoal_all_year
+- 변수 30개 
+- 기간 1년
+- 파라미터 Maxdepth 10 / 20/ 30
+- Prophet_maker_all
+-feature prediction by prophet
+- Prophet_maker
+-feature prediction by prophet (graph)
 
    1.Trend
 
