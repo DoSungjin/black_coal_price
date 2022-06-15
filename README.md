@@ -124,7 +124,10 @@ one-to
 -feature prediction by prophet
 - Prophet_maker
 -feature prediction by prophet (graph)
-
+-Xgboost_recursive_all
+ -변수 30개 / 31개 (t-1시점 blackcoal)
+ -val기간 1년(마지막값에 y_pred로 검증), 
+ -예측기간: 1일 기준 업데이트 되는 방식
    1.Trend
 
     **changepoints**	
