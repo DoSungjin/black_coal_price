@@ -57,10 +57,10 @@ one-to
   So we will use the prophet as a feature that can predict the blackcoal price.
   
 - Equation of Prophet 
-  y(t) = g(t) + s(t) + h(t) +et
-  -g(t) = Trend that has not repetitive elements
-  -s(t) = Repetitive change like week or seasonality of year
-  -h(t) = Elements that is irregular effect like Holiday
+  - y(t) = g(t) + s(t) + h(t) +et
+  - g(t) = Trend that has not repetitive elements
+  - s(t) = Repetitive change like week or seasonality of year
+  - h(t) = Elements that is irregular effect like Holiday
   
 - In sample test
  ![image](https://user-images.githubusercontent.com/100894816/172273744-6d807f15-9131-49e3-8090-db28967cca2a.png)
