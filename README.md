@@ -76,13 +76,13 @@ one-to
 - Prameter change
 
 - Rate of change 
- -We want to use the rate of change & prediction rate of change 
- ![image](https://user-images.githubusercontent.com/100894816/173766578-ea93a6b2-b344-413b-b1bc-ddc99d6d0d5e.png)
+ - We want to use the rate of change & prediction rate of change 
+ - ![image](https://user-images.githubusercontent.com/100894816/173766578-ea93a6b2-b344-413b-b1bc-ddc99d6d0d5e.png)
  
- ![image](https://user-images.githubusercontent.com/100894816/173766706-e724967a-cc4f-4c1a-9e25-f509633c18b0.png)
-  iron / WTI rate of change
+ - ![image](https://user-images.githubusercontent.com/100894816/173766706-e724967a-cc4f-4c1a-9e25-f509633c18b0.png)
+  - iron / WTI rate of change
 
- -Result is bad.
+ - Result is bad.
 
 - File
 - prophet_pred_all.csv  
@@ -101,7 +101,7 @@ one-to
 -경로 : dataset → project_dataset.csv  
 -기간 : 2011년 1월 1일 ~ 2019년 12월 31일 (**실제 데이터**)
 
----
+-------
 
 - Code  (code파일→prophet+Xgboost)
 - Xgboost_blackcoal_all
