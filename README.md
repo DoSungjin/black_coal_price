@@ -128,6 +128,8 @@ one-to
  -변수 30개 / 31개 (t-1시점 blackcoal)
  -val기간 1년(마지막값에 y_pred로 검증), 
  -예측기간: 1일 기준 업데이트 되는 방식
+- Prophet_ rate of change
+ -Rate of change each feature -> prophet prediction
    1.Trend
 
     **changepoints**	
