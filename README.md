@@ -74,8 +74,17 @@ one-to
   - economic element
   - US dollar
 - Prameter change
+
+- Rate of change 
+ -We want to use the rate of change & prediction rate of change 
+ ![image](https://user-images.githubusercontent.com/100894816/173766578-ea93a6b2-b344-413b-b1bc-ddc99d6d0d5e.png)
+ 
+ ![image](https://user-images.githubusercontent.com/100894816/173766706-e724967a-cc4f-4c1a-9e25-f509633c18b0.png)
+  iron / WTI rate of change
+
+ -Result is bad.
+
 - File
-- 
 - prophet_pred_all.csv  
 -경로 : dataset → prophet_pred → prophet_pred_all.csv  
 -기간 : 2019년 1월 1일 ~ 2019년 3월 31일 (**3개월 예측**)
@@ -141,11 +150,28 @@ one-to
  
  
  
+
+4) Xgboost
+- many-to-many
+- with prophet prediction we test the xgboost Model, it works well.
+- so, we make 
+
+
+- With Xgboost only, we make the Model. Feature is made by recursive xgboost.
+- ![image](https://user-images.githubusercontent.com/100894816/173767237-851bc3b5-1534-4d7c-8826-83270a441cc5.png)
+- ![image](https://user-images.githubusercontent.com/100894816/173767296-42f590eb-d80a-454c-8fde-07201f3063dd.png)
+- Result is so various depending on each features. 
+
+- ![image](https://user-images.githubusercontent.com/100894816/173767839-c0c2c283-0442-46a2-be8f-329f120b1e40.png)
+ - recursive model
+- ![image](https://user-images.githubusercontent.com/100894816/173767963-57c6dcf6-cd45-4cd4-8ee1-d804d5bcaa54.png)
+ - recursive medel + time t-1 Coal_price 
+- ![image](https://user-images.githubusercontent.com/100894816/173768126-8320d078-37e3-49b1-b168-fd34c16e001c.png)
+ - prophet + xgboost with daily data 30
+
+
 3) lstm
 many-to-many 
- 
-4) Xgboost
-many-to-many
- 
+  
 5) 1D convolution
 many-to-many
