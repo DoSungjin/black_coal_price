@@ -226,9 +226,31 @@ one-to
 - ![image](https://user-images.githubusercontent.com/100894816/173768126-8320d078-37e3-49b1-b168-fd34c16e001c.png)
  - prophet + xgboost with daily data 30
 - 
+5) XGBoost(AR+recursive)
+- X feature make
+- iron
+- ![image](https://user-images.githubusercontent.com/100894816/174831126-7b5560e2-09d1-4bf1-99a1-4d7d8d033c12.png)
+- brent_fut
+- ![image](https://user-images.githubusercontent.com/100894816/174831195-61a2677e-d10f-42e0-9ecd-916d20a61845.png)
+- WTI_fut
+- ![image](https://user-images.githubusercontent.com/100894816/174831247-e0491da1-3b26-4658-8e5c-7103daaf4caf.png)
+- LNG_fut
+- ![image](https://user-images.githubusercontent.com/100894816/174831307-fdec7f78-b673-4a09-8662-0c4acb507400.png)
+- AUD_dollar
+- ![image](https://user-images.githubusercontent.com/100894816/174831375-20821c39-e9b4-418e-8561-d6015fa4b633.png)
+- CAD_dollar
+- ![image](https://user-images.githubusercontent.com/100894816/174831417-cee708d6-852c-48b1-82b9-11273b034f45.png)
+- ZAR_dollar
+- ![image](https://user-images.githubusercontent.com/100894816/174831511-6e7fb618-7cdf-439f-98ec-6ab416c5cc02.png)
+- DXY
+- ![image](https://user-images.githubusercontent.com/100894816/174831555-72f39cba-cd39-41f3-bafb-0cec93b2da24.png)
+- DJI
+- ![image](https://user-images.githubusercontent.com/100894816/174831617-ff64f181-9d07-4a08-8ffd-4f1d92546db1.png)
+- IXIC
+- ![image](https://user-images.githubusercontent.com/100894816/174831684-b68a76bd-7dfb-4932-848e-fbce3cc78fbe.png)
 
-3) lstm
+6) lstm
 many-to-many 
   
-5) 1D convolution
+7) 1D convolution
 many-to-many
