@@ -195,10 +195,23 @@ one-to
  
  
 
-4) Xgboost
+4) Prophet + Xgboost
 - many-to-many
 - with prophet prediction we test the xgboost Model, it works well.
+- In sample test first
+- ![image](https://user-images.githubusercontent.com/100894816/174830101-eda1b937-402a-4181-b6cb-ca4e652f4758.png)
+
 - so, we make 
+- recursive(val 1year)
+- ![image](https://user-images.githubusercontent.com/100894816/174829377-d3e0aebc-905f-4a3c-be4f-34f5f55e12f1.png)
+- recursive(val 3month)
+- ![image](https://user-images.githubusercontent.com/100894816/174829590-4060ad19-854a-4952-91e5-98be88fb6449.png)
+- recursive(val 3month/t-1 prediction->add feature)
+- ![image](https://user-images.githubusercontent.com/100894816/174829630-6c39b493-3716-4c73-a38b-7892f13f1f05.png)
+- recursive(val 1day)
+- ![image](https://user-images.githubusercontent.com/100894816/174829946-8727755f-c36b-4914-978f-c04dad0b35a5.png)
+- recursive(train=val)
+- ![image](https://user-images.githubusercontent.com/100894816/174830522-aa43fc0e-a3ea-41ac-84ee-05a582ba7735.png)
 
 
 - With Xgboost only, we make the Model. Feature is made by recursive xgboost.
@@ -212,7 +225,7 @@ one-to
  - recursive medel + time t-1 Coal_price 
 - ![image](https://user-images.githubusercontent.com/100894816/173768126-8320d078-37e3-49b1-b168-fd34c16e001c.png)
  - prophet + xgboost with daily data 30
-
+- 
 
 3) lstm
 many-to-many 
