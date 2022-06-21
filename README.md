@@ -244,6 +244,10 @@ one-to
 - ![image](https://user-images.githubusercontent.com/100894816/174831511-6e7fb618-7cdf-439f-98ec-6ab416c5cc02.png)
 - DXY
 - ![image](https://user-images.githubusercontent.com/100894816/174831555-72f39cba-cd39-41f3-bafb-0cec93b2da24.png)
+- SHA
+- ![image](https://user-images.githubusercontent.com/100894816/174832094-1142784d-3122-4300-bda5-b9c3a7c69eab.png)
+- BSE
+- ![image](https://user-images.githubusercontent.com/100894816/174832159-cfe97cc3-622e-4160-9f12-9d7042a45ef3.png)
 - DJI
 - ![image](https://user-images.githubusercontent.com/100894816/174831617-ff64f181-9d07-4a08-8ffd-4f1d92546db1.png)
 - IXIC
