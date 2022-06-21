@@ -1,5 +1,11 @@
 # black_coal_price
  
+# Why is forecasting important?
+ - There has always been a demand for price prediction. 
+   From a company's point of view, inventory management of raw materials is the key to cost control. 
+   In this way, from the raw material market, which is the basis of business, the production volume that determines the production of goods, that is, the demand itself, is also required. 
+   If you derive insight into the market while modeling, and go through the process of developing the model through the derived information, prediction can give a lot of information to business management, not just prediction.
+
 # Purpose 
 
   When the firm buy blackcoal we want to give imformation about price
@@ -17,7 +23,18 @@ Fist of all, there is a model about price. And then we do backtesting for profit
   5. Evaluation
   6. Back testing
  
- 
+# EDA
+-![image](https://user-images.githubusercontent.com/100894816/174795217-06686582-9984-44d4-a4f7-37d72a2b76e3.png)
+- ![image](https://user-images.githubusercontent.com/100894816/174795239-26ad8397-61fb-4c39-ba2a-bc95bd44942f.png)
+- ![image](https://user-images.githubusercontent.com/100894816/174795264-a07d818e-4b73-41ba-925a-6b7b243c3c25.png)
+- ![image](https://user-images.githubusercontent.com/100894816/174795305-2dcccf90-4416-4e36-8200-cea0b2dc9ab7.png)
+- ![image](https://user-images.githubusercontent.com/100894816/174795326-7e82b1d0-56bc-474b-adb1-2aa992a851bf.png)
+-![image](https://user-images.githubusercontent.com/100894816/174795339-ed0bbfbb-2329-4f52-8d17-d4aed98bc1a3.png)
+-![image](https://user-images.githubusercontent.com/100894816/174795354-65209a99-f8a3-4760-932d-6d39a78225ef.png)
+-![image](https://user-images.githubusercontent.com/100894816/174795369-84ddbc97-5f0f-4ff7-80a6-b1c99a81d7ad.png)
+- In time series prediction, correlation is not important. However, we used it as a reference.
+- ![image](https://user-images.githubusercontent.com/100894816/174796891-9fd5f554-c77c-4b92-9e87-fde638bd3536.png)
+
 # Modeling  
 1) arima
  * one-to
@@ -69,10 +86,32 @@ one-to
 
 - Out of Sample test
   - prophet result
-  - bdi
-  - market price
-  - economic element
-  - US dollar
+  - ![image](https://user-images.githubusercontent.com/100894816/174795466-f00a457d-ce87-456e-a0df-7c4d5780a1bd.png)
+  - ![image](https://user-images.githubusercontent.com/100894816/174795491-df7f8bb6-cbb3-4161-b797-1ce49086795b.png)
+  - ![image](https://user-images.githubusercontent.com/100894816/174795545-1a550e54-8d02-49cc-8613-d53686318dd1.png)
+- iron
+- ![image](https://user-images.githubusercontent.com/100894816/174795578-4c872b28-5000-4789-a4eb-9affce16a85d.png)
+- Brent_fut
+- ![image](https://user-images.githubusercontent.com/100894816/174795919-33b8003c-7bb7-4d30-af4d-563a085de2c8.png)
+- copper_fut
+- ![image](https://user-images.githubusercontent.com/100894816/174796022-b1238900-0e02-41b6-bad4-056d08082564.png)
+- WTI_fut
+- ![image](https://user-images.githubusercontent.com/100894816/174796066-4693e6b9-eb1d-434e-8e77-dfec6a26832d.png)
+- bdi
+- ![image](https://user-images.githubusercontent.com/100894816/174796109-125bcf7a-bfd9-4524-af00-34a2d07621e2.png)
+- USD/AUD
+- ![image](https://user-images.githubusercontent.com/100894816/174796141-617aacd0-7d13-4d7b-bfc2-b2555e7bd0a4.png)
+- USD/CAD
+- ![image](https://user-images.githubusercontent.com/100894816/174796167-d6482f92-a7f9-4318-ba08-3a9c4802387c.png)
+- USD/COP
+- ![image](https://user-images.githubusercontent.com/100894816/174796225-21c9d465-ba70-4da7-b770-586d24678f22.png)
+- USD/ZAR
+- ![image](https://user-images.githubusercontent.com/100894816/174796274-cdb057a2-cec7-4cda-85a1-46f08e7a042c.png)
+- 상하이종합지수
+- ![image](https://user-images.githubusercontent.com/100894816/174796306-27a2dec8-aa9b-4edb-8329-602aff5a699a.png)
+- 인도지수(India)
+- ![image](https://user-images.githubusercontent.com/100894816/174796366-a1482c62-62df-4b14-b7c7-4972a58f15dd.png)
+
 - Prameter change
 
 - Rate of change 
