@@ -1,4 +1,4 @@
-# black_coal_price
+# **Blackcoal Price**
  
 # Why is forecasting important?
  - There has always been a demand for price prediction. 
