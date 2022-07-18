@@ -37,6 +37,11 @@ Fist of all, there is a model about price. And then we do backtesting for profit
 -![image](https://user-images.githubusercontent.com/100894816/174795369-84ddbc97-5f0f-4ff7-80a6-b1c99a81d7ad.png)
 - In time series prediction, correlation is not important. However, we used it as a reference.
 - ![image](https://user-images.githubusercontent.com/100894816/174796891-9fd5f554-c77c-4b92-9e87-fde638bd3536.png)
+- https://www.notion.so/1-f7d955c5de3f4820a94fe7192ce39e94
+- https://www.notion.so/Corrcoef-1-0c4fe9aff61f47aa8828f2a195914ab0
+- https://www.notion.so/covarian-correlation-p-value-1-1bc3a7f4338e4e9cbe36cfe65f9152fd
+- https://www.notion.so/linear-regresstion-1-ef985825e6f94fa991c9a9e2f9ad4065
+- https://www.notion.so/Graph-with-Coal-62ae8d33fbac466d88df2e5a8b6bfda7
 
 # Modeling  
 1) arima
