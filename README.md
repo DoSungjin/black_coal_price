@@ -283,3 +283,5 @@ many-to-many
   
 7) 1D convolution
 many-to-many
+
+8) Derived Variable(Seasonality) + Trend
