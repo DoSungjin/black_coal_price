@@ -285,3 +285,6 @@ many-to-many
 many-to-many
 
 8) Derived Variable(Seasonality) + Trend
+
+
+Notion link : https://evening-satin-e96.notion.site/Blackcoal-price-93ca62c4f8e64175be82da462d22e520
