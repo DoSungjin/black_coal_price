@@ -5,6 +5,7 @@
 - There has always been a demand for price prediction. From a company's point of view, inventory management of raw materials is the key to cost control. In this way, from the raw material market, which is the basis of business, the production volume that determines the production of goods, that is, the demand itself, is also required. If you derive insight into the market while modeling, and go through the process of developing the model through the derived information, prediction can give a lot of information to business management, not just prediction.
    
 # https://mnc.ai/?p=11
+# >??
 
 # 📅Period
 - 2022-05-23 ~ 2022-07-20
