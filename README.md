@@ -1,3 +1,4 @@
+It will be updated in week
 # 🕋B**lackcoal_price**
 
 # ❓**Why is forecasting important?**
